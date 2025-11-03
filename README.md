@@ -1,4 +1,4 @@
-# Smart Footwear Assistive Walking System
+# Design And Modelling Of Footwear For Visually Impared
 
 > 
 *An IoT-powered assistive device for visually impaired individuals using ultrasonic sensing and haptic feedback*
@@ -158,30 +158,30 @@ void loop() {
 │          Smart Footwear System                  │
 ├─────────────────────────────────────────────────┤
 │                                                 │
-│  ┌──────────────┐        ┌──────────────┐     │
-│  │  Ultrasonic  │        │  Ultrasonic  │     │
-│  │  Sensor (L)  │        │  Sensor (R)  │     │
-│  └──────┬───────┘        └──────┬───────┘     │
-│         │                       │             │
-│         └───────────┬───────────┘             │
-│                     │                         │
-│              ┌──────▼──────┐                  │
-│              │   Arduino   │                  │
-│              │     Nano    │                  │
-│              └──────┬──────┘                  │
-│                     │                         │
-│         ┌───────────┴───────────┐             │
-│         │                       │             │
-│  ┌──────▼───────┐        ┌──────▼───────┐    │
-│  │  Vibration   │        │  Vibration   │    │
-│  │  Motor (L)   │        │  Motor (R)   │    │
-│  └──────────────┘        └──────────────┘    │
-│                                               │
-│              ┌──────────┐                     │
-│              │  Battery │                     │
-│              │   Pack   │                     │
-│              └──────────┘                     │
-└───────────────────────────────────────────────┘
+│  ┌──────────────┐        ┌──────────────┐       │
+│  │  Ultrasonic  │        │  Ultrasonic  │       │
+│  │  Sensor (L)  │        │  Sensor (R)  │       │
+│  └──────┬───────┘        └──────┬───────┘       │
+│         │                       │               │
+│         └───────────┬───────────┘               │
+│                     │                           │
+│              ┌──────▼──────┐                    │
+│              │   Arduino   │                    │
+│              │     Nano    │                    │
+│              └──────┬──────┘                    │
+│                     │                           │
+│         ┌───────────┴───────────┐               │
+│         │                       │               │
+│  ┌──────▼───────┐        ┌──────▼───────┐       │
+│  │  Vibration   │        │  Vibration   │       │
+│  │  Motor (L)   │        │  Motor (R)   │       │
+│  └──────────────┘        └──────────────┘       │
+│                                                 │
+│              ┌──────────┐                       │
+│              │  Battery │                       │
+│              │   Pack   │                       │
+│              └──────────┘                       │
+└─────────────────────────────────────────────────┘
 ```
 
 ---
@@ -295,16 +295,16 @@ SOFTWARE.
 
 ### 📄 Project Reports:
 
-- [📕 Full Project Report (PDF)](./docs/DESIGN%20AND%20MODELLING%20OF%20FOOTWEAR%20FOR%20VISUALLY%20IMPAIRED%20REPORT.pdf)
-- [📘 Project Report (DOCX)](./docs/DESIGN%20AND%20MODELLING%20OF%20FOOTWEAR%20FOR%20VISUALLY%20IMPAIRED%20REPORT.docx)
+- [📕 Full Project Report (PDF)](https://github.com/Darkwebnew/DESIGN-AND-MODELLING-OF-FOOTWEAR-FOR-VISUALLY-IMPAIRED/blob/main/DESIGN%20AND%20MODELLING%20OF%20FOOTWEAR%20FOR%20VISUALLY%20IMPAIRED%20REPORT%20.pdf)
+- [📘 Project Report (DOCX)](https://github.com/Darkwebnew/DESIGN-AND-MODELLING-OF-FOOTWEAR-FOR-VISUALLY-IMPAIRED/blob/main/DESIGN%20AND%20MODELLING%20OF%20FOOTWEAR%20FOR%20VISUALLY%20IMPAIRED%20REPORT%20.docx)
 
 ### 📊 Presentation:
 
-- [🎞️ Project Presentation (PPT)](./docs/Project_Presentation.pptx)
+- [🎞️ Project Presentation (PPT)](https://github.com/Darkwebnew/DESIGN-AND-MODELLING-OF-FOOTWEAR-FOR-VISUALLY-IMPAIRED/blob/main/DESIGN%20AND%20MODELLING%20OF%20FOOTWEAR%20FOR%20VISUALLY%20IMPAIRED%20REPORT.pptx)
 
 ### 💻 Source Code:
 
-- [⚙️ Main Arduino Code](./src/Smart_Footwear_Assistive_Walking_System.ino)
+- [⚙️ Main Arduino Code](https://github.com/Darkwebnew/DESIGN-AND-MODELLING-OF-FOOTWEAR-FOR-VISUALLY-IMPAIRED/blob/main/Smart_Footwear_Assistive_Walking_System/Smart_Footwear_Assistive_Walking_System.ino)
 
 ---
 
@@ -312,7 +312,7 @@ SOFTWARE.
 
 - 🌐 **IoT Integration**: Real-time location tracking via GPS and cloud connectivity
 - 📱 **Mobile App**: Companion app for configuration and emergency alerts
-- 🗣️ **Voice Feedback**: Audio directions using TTS (Text-to-Speech)
+- 🗣️ **Voice Feedback**: Audio directions using TWS
 - 🤖 **AI/ML**: Adaptive learning for different walking patterns
 - 🔋 **Solar Charging**: Extended battery life with solar panels
 - 🌧️ **Weather Resistance**: Enhanced waterproofing for all conditions
